@@ -1,0 +1,14 @@
+{
+  "is_client": true,
+  "supervisor_authorize": "user:password@",
+  "supervisor_port": 9001,
+  "servers": {
+    "127.0.0.1": {
+      "supervisor": {
+        "celery-work": "stop",
+      },
+      "cron": {
+      }
+    }
+  }
+}

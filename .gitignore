@@ -106,5 +106,6 @@ venv.bak/
 .mypy_cache/
 .idea
 prod.json
+prod_stop.json
 
 
